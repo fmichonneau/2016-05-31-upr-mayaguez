@@ -1,8 +1,8 @@
 #--------------------------------------------------------------------------------
 # Values for this workshop - EDIT THIS SECTION.
 #--------------------------------------------------------------------------------
-workshop_repo   : "http://github.com/datacarpentry/workshop-template"
-workshop_site   : "http://datacarpentry.github.io/workshop-template"
+workshop_repo   : "http://github.com/fmichonneau/2016-06-03-upr-mayaguez"
+workshop_site   : "http://fmichonneau.github.io/2016-06-03-upr-mayaguez"
 #--------------------------------------------------------------------------------
 # Standard Data Carpentry settings - should not need to be modified.
 #--------------------------------------------------------------------------------

@@ -1,24 +1,24 @@
 ---
 layout: workshop
 root: .
-venue: FIXME (brief name of host site)
-address: FIXME (street address of home location)
-country: FIXME (country (hyphenated if need be, like 'United-Kingdom')
-language: FIXME (language code like 'en' or 'fr')
-latlng: (fractional latitude and longitude like 41.7901128,-87.6007318)
-humandate: FIXME (use the format 'Feb 17-18, 2020' (without the quotes)
-humantime: FIXME (use the format '9:00 am - 4:30 pm' (without the quotes)
-startdate: FIXME (use YYYY-MM-DD format like 2015-01-01)
-enddate: FIXME (use YYYY-MM-DD format like 2015-01-02)
-instructor: (list of names like ["Kay McNulty", "Betty Jennings", "Betty Snyder"])
-helper: (list of names like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"])
-contact: FIXME (contact email address for workshop organizer)
+venue: University of Puerto Rico Mayagüez
+address: TDB
+country: Puerto-Rico
+language: en
+latlng: 18.2094459,-67.2105816
+humandate: Jun 3-4, 2016
+humantime: 9:00 am - 4:30 pm
+startdate: 2016-06-03
+enddate: 2016-06-04
+instructor: ["April Wright", "François Michonneau"]
+helper: ["Catherine M Hulshof"]
+contact: francois.michonneau@gmail.com
 etherpad: # FIXME (insert the URL for your Etherpad if you're using one)
 eventbrite: # FIXME (delete this if not used, otherwise uncomment and provide 1234567890AB key for Eventbrite registration)
 day1_am: "Data organization in spreadsheets and OpenRefine"
 day1_pm: "Introduction to R"
-day2_am: "Data analysis and visualization in R"
-day2_pm: "SQL for data management"
+day2_am: "Introduction to the Shell / Data analysis and visualization in R"
+day2_pm: "Version control with Git"
 ---
 <!--
   HEADER
@@ -55,10 +55,10 @@ day2_pm: "SQL for data management"
   the pitch.
 -->
 <p>
-<a href=http://datacarpentry.org>Data Carpentry</a> workshops are for any researcher 
-who has data they want to analyze, and no prior computational experience is required. 
-This hands-on workshop teaches basic concepts, skills and tools for working more 
-effectively with data. 
+<a href=http://datacarpentry.org>Data Carpentry</a> workshops are for any researcher
+who has data they want to analyze, and no prior computational experience is required.
+This hands-on workshop teaches basic concepts, skills and tools for working more
+effectively with data.
 </p>
 <p>
 We will cover {{page.day1_am}}, {{page.day1_pm}}, {{page.day2_am}} and {{page.day2_pm}}.
@@ -102,7 +102,7 @@ Participants should bring their laptops and plan to participate actively. By the
   Modify the block below if there are any special requirements.
 -->
 <p>
-  <strong>Requirements:</strong> Participants must bring a laptop with a 
+  <strong>Requirements:</strong> Participants must bring a laptop with a
   Mac, Linux, or Windows operating sytem (not a tablet, Chromebook, etc.) that they have administrative privileges
   on. They should have a few specific software packages installed (listed
   <a href="#setup">below</a>). They are also required to abide by
@@ -139,11 +139,6 @@ Participants should bring their laptops and plan to participate actively. By the
 -->
 <h2>Preliminary Schedule</h2>
 
-<!-- DO NOT EDIT SURVEY LINKS -->
-<p><em>Surveys</em></p>
-<p>Please be sure to complete these surveys before and after the workshop.</p>
-<p><a href='{{ site.dc_pre_survey }}'>Pre-workshop Survey</a></p>
-<p><a href='{{ site.dc_post_survey }}'>Post-workshop Survey</a></p>
 
 
 
@@ -155,8 +150,8 @@ Participants should bring their laptops and plan to participate actively. By the
       <tr> <td>Morning</td>  <td>{{page.day1_am}}</td> </tr>
        <tr> <td>Afternoon</td>  <td>{{page.day1_pm}}</td> </tr>
     </table>
- 
- 
+
+
     <h3>Day 2</h3>
     <table class="table table-striped">
       <tr> <td>Morning</td>  <td>{{page.day2_am}}</td> </tr>
@@ -186,6 +181,13 @@ Participants should bring their laptops and plan to participate actively. By the
 {% endif %}
 
 <hr/>
+
+<!-- DO NOT EDIT SURVEY LINKS -->
+<h1>Surveys</h1>
+<p>Please be sure to complete these surveys before and after the workshop.</p>
+<p><a href='{{ site.dc_pre_survey }}'>Pre-workshop Survey</a></p>
+<p><a href='{{ site.dc_post_survey }}'>Post-workshop Survey</a></p>
+
 
 <!--
   SYLLABUS
@@ -298,10 +300,10 @@ Participants should bring their laptops and plan to participate actively. By the
 <h2 id="setup">Setup</h2>
 
 <p>
-To participate in a Data Carpentry workshop, you will need working copies of the 
-described software. Please make sure to install everything (or at least to download 
-the installers) before the start of your workshop. Participants should bring and use 
-their own laptops to insure the proper setup of tools for an efficient workflow 
+To participate in a Data Carpentry workshop, you will need working copies of the
+described software. Please make sure to install everything (or at least to download
+the installers) before the start of your workshop. Participants should bring and use
+their own laptops to insure the proper setup of tools for an efficient workflow
 once you leave the workshop.
 <p>
 Please follow these <a href=install.html>Setup Instructions</a>.
@@ -311,4 +313,3 @@ Please follow these <a href=install.html>Setup Instructions</a>.
   that may be useful on the
   <a href = "https://github.com/swcarpentry/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
 </p>
-
