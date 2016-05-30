@@ -69,7 +69,7 @@ The spreadsheets or statistical programs will likely mis-interpret blank cells t
 ## <a name="null"></a> Using bad null values
 **Example**: using -999 or other numerical values (or zero).
 
-**Solution**: Many statistical programs will not recognize that numeric values of null are indeed null. It will depend on the final application of your data and how you intend to analyse it, but it is essential to use a clearly defined and CONSISTENT null indicator. Blanks (most applications) and NA (for R) are good choices.
+**Solution**: Many statistical programs will not recognize that numeric values of null are indeed null. It will depend on the final application of your data and how you intend to analyse it, but it is essential to use a clearly defined and consistent null indicator. Blanks (most applications) and NA (for R) are good choices.
 
 From White et al, 2013, [Nine simple ways to make it easier to (re)use your data.](http://library.queensu.ca/ojs/index.php/IEE/article/view/4608/4898) Ideas in Ecology and Evolution:
 
@@ -91,7 +91,7 @@ From White et al, 2013, [Nine simple ways to make it easier to (re)use your data
 
 **Example**: merging cells.
 
-**Solution**: If you’re not careful, formatting a worksheet to be more aesthetically pleasing can compromise your computer’s ability to see associations in the data. Merged cells are an absolute formatting NO-NO if you want to make your data readable by statistics software. Consider restructuring your data in such a way that you will not need to merge cells to organize your data.
+**Solution**: If you’re not careful, formatting a worksheet to be more aesthetically pleasing can compromise your computer’s ability to see associations in the data. Merged cells are an absolute formatting disaster if you want to make your data readable by statistics software. Consider restructuring your data in such a way that you will not need to merge cells to organize your data.
 
 
 ## <a name="units"></a> Placing comments or units in cells

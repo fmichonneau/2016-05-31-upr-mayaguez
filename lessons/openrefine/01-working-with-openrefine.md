@@ -31,6 +31,8 @@ If you haven't already, download the data from:
 
 **Once Refine is open, you'll be asked if you want to Create, Open, or Import a Project.**
 
+If, for whatever reason, OpenRefine doesn't open a firefox window for you, open Firefox and navigate to: http://127.0.0.1:3333
+
 ````
   - Click Browse, find Portal_rodents_19772002_scinameUUIDs.csv
   - Click next to open Portal_rodents_19772002_scinameUUIDs.csv

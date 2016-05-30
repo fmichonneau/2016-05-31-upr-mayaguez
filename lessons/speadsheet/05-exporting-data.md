@@ -81,9 +81,9 @@ Add the follwing to the file ([see the detailed tutorial](http://nicercode.githu
 	
 3. Use [dos2unix](http://dos2unix.sourceforge.net/) (available on OSX, *nix, and Cygwin) on local files to standardize line endings.
 
-#### A note on R and `xls`
+#### A note on R, python and `xls`
 
-There are R packages that enable to read `xls` files (as well as
+There are R and Python packages that enable to read `xls` files (as well as
 Google spreadsheets). It is even possible to access different
 worksheets in the `xls` documents.
 

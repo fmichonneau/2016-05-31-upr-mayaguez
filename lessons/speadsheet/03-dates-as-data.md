@@ -88,7 +88,7 @@ For instance this is a spreadsheet representing insect counts that were taken ev
 ![So, so ambiguous, it's even confusing Excel](fig/6_excel_dates_2.jpg)
 
 
-If Excel was to be believed, this person had been collecting bugs IN THE FUTURE. Now, we have no doubt this person is highly capable, but I believe time travel was beyond even his grasp.
+If Excel was to be believed, this person had been collecting bugs in the  future. Now, we have no doubt this person is highly capable, but I believe time travel was beyond even his grasp.
 
 Entering dates in one cell is helpful but due to the fact that the spreadsheet programmes may interpret and save the data in different ways (doing that somewhat behind the scenes), there is a better practice.  
 
