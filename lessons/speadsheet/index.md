@@ -72,14 +72,4 @@ To most effectively use these materials, please make sure to install everything
 
 
 
-{% if page.software == "Python" %}
-{% include pythonSetup.html %}
-{% elsif page.software == "Spreadsheets" %}
-{% include spreadsheetSetup.html %}
-{% elsif page.software == "R" %}
-{% include rSetup.html %}
-{% else %}
-{% include anySetup.html %}
-{% endif %}
-
 <p><strong>Twitter</strong>: @datacarpentry
